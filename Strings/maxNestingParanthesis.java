@@ -6,7 +6,7 @@ public class maxNestingParanthesis {
             int depth = 0;
 
             if (s.charAt(i) == '(') {
-                // For every '(', count how deep the nesting goes from this point
+               
                 for (int j = i; j < s.length(); j++) {
                     if (s.charAt(j) == '(') {
                         depth++;
@@ -14,12 +14,12 @@ public class maxNestingParanthesis {
                         depth--;
                     }
 
-                    // When matching ')' is found, stop checking
+                    
                     if (depth == 0) {
                         break;
                     }
 
-                    // Update max depth encountered so far
+                    
                     max = Math.max(max, depth);
                 }
             }
