@@ -1,3 +1,4 @@
+package Arrays;
 public class findMaxConsecutive{
 static int findMaxConsecutiveOnes(int nums[]) {
         int cnt = 0;

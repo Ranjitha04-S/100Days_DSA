@@ -1,5 +1,4 @@
-
-
+package Arrays;
 public class findSingleNumber {
     /*TC= O(N^2)
       SC = O(1)

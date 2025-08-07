@@ -1,3 +1,4 @@
+package Arrays;
 public class missingNumber {
 
     public static int missingNumber(int []a, int N) {

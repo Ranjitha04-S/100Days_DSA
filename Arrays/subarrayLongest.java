@@ -1,3 +1,4 @@
+package Arrays;
 public class subarrayLongest {
     public static int getLongestSubarray(int []a, long k) {
         int n = a.length; // size of the array.

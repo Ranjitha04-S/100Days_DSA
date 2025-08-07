@@ -1,3 +1,4 @@
+package Arrays;
 public class leftRotateDplaces {
   //TC = O(N) SC =O(N)
   private static void RotateToRight(int arr[], int n, int k){

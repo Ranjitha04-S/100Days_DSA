@@ -1,3 +1,4 @@
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,6 +48,8 @@ public class Union {
    }
 
    //Using Two pointers
+   //TC = O(m+n)
+   //SC = O(m+n)
    private static ArrayList<Integer> unionArrayThree(int arr1[], int arr2[], int n, int m)
    {
       ArrayList<Integer> union = new ArrayList<>();

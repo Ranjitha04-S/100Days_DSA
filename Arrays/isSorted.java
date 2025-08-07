@@ -1,3 +1,4 @@
+package Arrays;
 public class isSorted {
     /*TC = O(n^2) 
       SC = O(1)
